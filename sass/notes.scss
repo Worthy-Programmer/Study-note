@@ -1,0 +1,24 @@
+@import './2_modules/nav.scss';
+// @import '../node_modules/bootstrap/scss/bootstrap-grid';
+// @import '../node_modules/bootstrap/scss/card';
+// @import '../node_modules/bootstrap/scss/helpers/position';
+@import "../node_modules/bootstrap/scss/bootstrap";
+// @import "../no"
+body {
+    height: 100vh;
+    max-height: 100vh;
+}
+#app {
+    height: 89%;
+}
+
+#note {
+    overflow-y: scroll;
+}
+ul {
+    list-style: none;
+}
+.card [data-target="collapse"] {
+    list-style-image: url('../node_modules/bootstrap-icons/icons/chevron-down.svg');
+    list-style-position: inside;
+}

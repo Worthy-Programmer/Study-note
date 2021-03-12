@@ -1,0 +1,10 @@
+@import "./2_modules/nav";
+@import "../node_modules/bootstrap/scss/root";
+@import "../node_modules/bootstrap/scss/reboot";
+@import "../node_modules/bootstrap/scss/type";
+@import "../node_modules/bootstrap/scss/grid";
+@import "../node_modules/bootstrap/scss/list-group";
+
+#ability img[src$=svg] {
+    height: 70px;
+}
